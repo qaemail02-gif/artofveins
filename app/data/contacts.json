@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "📞",
+    "labelKey": "phone",
+    "value": "+1 (800) 555-0199"
+  },
+  {
+    "icon": "▶",
+    "labelKey": "youtube",
+    "href": "https://www.youtube.com/@artofveins"
+  },
+  {
+    "icon": "📸",
+    "labelKey": "instagram",
+    "href": "https://www.instagram.com/artofveins"
+  }
+]

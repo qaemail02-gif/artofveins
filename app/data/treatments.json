@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "videoId": "0tWJ-D3WlkE",
+    "image": "/treatments/sclerotherapy-syringe.jpg",
+    "en": {
+      "title": "Sclerotherapy",
+      "description": "A minimally invasive procedure where a solution is injected directly into the vein, causing it to collapse and fade. Ideal for spider veins and small varicose veins.",
+      "tag": "Spider Veins",
+      "duration": "30–45 min",
+      "recovery": "1–2 days"
+    },
+    "ua": {
+      "title": "Склеротерапія",
+      "description": "Мінімально інвазивна процедура, під час якої розчин вводиться безпосередньо у вену, змушуючи її спадатися та зникати. Ідеально підходить для судинних зірочок та невеликих варикозних вен.",
+      "tag": "Судинні зірочки",
+      "duration": "30–45 хв",
+      "recovery": "1–2 дні"
+    },
+    "icon": "💉"
+  },
+  {
+    "id": 2,
+    "videoId": "VbkhUfwDglk",
+    "image": "/treatments/laser-device.jpg",
+    "en": {
+      "title": "Sclerotherapy",
+      "description": "Watch a real sclerotherapy session performed at Art of Veins. The injected solution irritates the vessel lining, making it swell shut and eventually reabsorb into the body.",
+      "tag": "Spider Veins",
+      "duration": "30–45 min",
+      "recovery": "1–2 days"
+    },
+    "ua": {
+      "title": "Склеротерапія",
+      "description": "Перегляньте реальний сеанс склеротерапії в Art of Veins. Введений розчин подразнює стінку судини, змушуючи її злипнутися та поступово розсмоктатися.",
+      "tag": "Судинні зірочки",
+      "duration": "30–45 хв",
+      "recovery": "1–2 дні"
+    },
+    "icon": "💉"
+  },
+  {
+    "id": 3,
+    "videoId": "yp6ik-M14MY",
+    "image": "/treatments/radiofrequency.jpg",
+    "en": {
+      "title": "Removing Spider Veins",
+      "description": "Laser energy is delivered inside the vein through a thin fiber, sealing it shut. A gold-standard treatment for larger varicose veins with excellent long-term results.",
+      "tag": "Varicose Veins",
+      "duration": "45–60 min",
+      "recovery": "2–5 days"
+    },
+    "ua": {
+      "title": "Видалення судинних зірочок",
+      "description": "Лазерна енергія подається всередину вени через тонке волокно, запечатуючи її. Золотий стандарт лікування великих варикозних вен із чудовими довгостроковими результатами.",
+      "tag": "Варикозні вени",
+      "duration": "45–60 хв",
+      "recovery": "2–5 днів"
+    },
+    "icon": "🔦"
+  },
+  {
+    "id": 4,
+    "videoId": "zzfWGu8L36g",
+    "image": "/treatments/venaseal.jpg",
+    "en": {
+      "title": "Removing Spider Veins",
+      "description": "Radiofrequency energy heats and closes the affected vein wall. Patients experience less bruising and discomfort compared to traditional surgery.",
+      "tag": "Varicose Veins",
+      "duration": "45–60 min",
+      "recovery": "1–3 days"
+    },
+    "ua": {
+      "title": "Видалення судинних зірочок",
+      "description": "Радіочастотна енергія нагріває та закриває уражену стінку вени. Пацієнти відчувають менше синців і дискомфорту порівняно з традиційною хірургією.",
+      "tag": "Варикозні вени",
+      "duration": "45–60 хв",
+      "recovery": "1–3 дні"
+    },
+    "icon": "📡"
+  },
+  {
+    "id": 5,
+    "videoId": "8reEtupSSlY",
+    "image": "/treatments/phlebectomy.jpg",
+    "en": {
+      "title": "Removing Spider Veins",
+      "description": "Small surface varicose veins are removed through tiny punctures in the skin. Performed under local anesthesia and leaves minimal scarring.",
+      "tag": "Surface Veins",
+      "duration": "60–90 min",
+      "recovery": "3–5 days"
+    },
+    "ua": {
+      "title": "Видалення судинних зірочок",
+      "description": "Невеликі поверхневі варикозні вени видаляються через мікропроколи шкіри. Виконується під місцевою анестезією та залишає мінімальні рубці.",
+      "tag": "Поверхневі вени",
+      "duration": "60–90 хв",
+      "recovery": "3–5 днів"
+    },
+    "icon": "🩺"
+  }
+]
