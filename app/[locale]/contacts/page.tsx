@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { locales, type Locale, ui } from "@/app/i18n/locales";
 import contactsData from "@/app/data/contacts.json";
 
@@ -20,6 +21,7 @@ export default async function Contacts({
     label: c[item.labelKey as keyof ContactsStrings],
     value: "value" in item ? item.value : null,
     href: "href" in item ? item.href : null,
+    qr: "qr" in item ? item.qr : null,
   }));
 
   return (
@@ -40,7 +42,7 @@ export default async function Contacts({
 
         {/* Contact cards */}
         <section className="grid gap-4 sm:grid-cols-3">
-          {cards.map(({ icon, label, value, href }) => {
+          {cards.map(({ icon, label, value, href, qr }) => {
             const inner = (
               <>
                 <span className="text-2xl">{icon}</span>
@@ -50,6 +52,15 @@ export default async function Contacts({
                 <p className="text-sm font-medium text-zinc-800 dark:text-zinc-200">
                   {value ?? label}
                 </p>
+                {qr && (
+                  <Image
+                    src={qr}
+                    alt={`${String(label)} QR code`}
+                    width={160}
+                    height={160}
+                    className="mt-2 rounded-xl self-center"
+                  />
+                )}
               </>
             );
 

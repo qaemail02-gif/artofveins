@@ -12,6 +12,7 @@
   {
     "icon": "📸",
     "labelKey": "instagram",
-    "href": "https://www.instagram.com/borkivets_ol"
+    "href": "https://www.instagram.com/borkivets_ol",
+    "qr": "/images/instagram-qr.jpg"
   }
 ]
