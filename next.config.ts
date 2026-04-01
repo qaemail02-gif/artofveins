@@ -1,10 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  basePath: process.env.NODE_ENV === "production" ? "/qaemail01-project" : "",
+  // Vercel runs the Next.js server natively — no special output mode needed.
+  // (removing output:"export" re-enables SSR, API routes, and image optimisation)
+
+  reactStrictMode: true,
+
   images: {
-    unoptimized: true,
+    // Image optimisation is handled by Vercel — keep it enabled (remove unoptimized)
     remotePatterns: [
       {
         protocol: "https",
