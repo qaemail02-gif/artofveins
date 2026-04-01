@@ -1,0 +1,19 @@
+# CI / VCS
+.gitlab-ci.yml
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+.dockerignore
+
+# IDE
+.idea
+*.iml
+.vscode
+
+# Docs
+README.md
+
+# Local dev
+proxy.ts
