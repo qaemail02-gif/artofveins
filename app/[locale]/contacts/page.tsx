@@ -58,7 +58,7 @@ export default async function Contacts({
                     alt={`${String(label)} QR code`}
                     width={160}
                     height={160}
-                    className="mt-2 rounded-xl self-center"
+                    className="mt-2 self-center rounded-xl"
                   />
                 )}
               </>
