@@ -1,8 +1,9 @@
 [
   {
-    "icon": "📞",
+    "icon": "viber",
     "labelKey": "phone",
-    "value": "+1 (800) 000-0000"
+    "value": "+380509098571",
+    "href": "viber://chat?number=%2B380509098571"
   },
   {
     "icon": "▶",

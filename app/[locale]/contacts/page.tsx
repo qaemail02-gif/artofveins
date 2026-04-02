@@ -5,6 +5,18 @@ import contactsData from "@/app/data/contacts.json";
 
 type ContactsStrings = typeof ui["en"]["contacts"];
 
+function ViberIcon() {
+  return (
+    <svg viewBox="0 0 32 32" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="32" height="32" rx="8" fill="#7360F2"/>
+      <path
+        d="M22.9 9.1C21.2 7.5 18.9 6.6 16 6.6c-5.4 0-9.4 4-9.4 9.4 0 1.7.4 3.3 1.3 4.7L6.6 25.4l4.8-1.3c1.3.7 2.8 1.1 4.4 1.1h.1c5.4 0 9.4-4 9.4-9.4 0-2.5-1-4.8-2.4-6.7zm-6.9 14.5h-.1c-1.4 0-2.8-.4-4-1l-.3-.2-3 .8.8-2.9-.2-.3c-.8-1.2-1.2-2.7-1.2-4.2 0-4.5 3.5-8 8-8 2.1 0 4.1.8 5.6 2.3 1.5 1.5 2.3 3.4 2.3 5.6-.1 4.5-3.6 7.9-7.9 7.9zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.1 0-.3 0-.4-.1-.1-.5-1.3-.7-1.8-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.1 1.6 2.5 3.9 3.5.5.2 1 .4 1.3.5.6.2 1.1.2 1.5.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.5-.3z"
+        fill="white"
+      />
+    </svg>
+  );
+}
+
 export default async function Contacts({
   params,
 }: {
@@ -45,7 +57,7 @@ export default async function Contacts({
           {cards.map(({ icon, label, value, href, qr }) => {
             const inner = (
               <>
-                <span className="text-2xl">{icon}</span>
+                {icon === "viber" ? <ViberIcon /> : <span className="text-2xl">{icon}</span>}
                 <p className="text-xs font-semibold uppercase tracking-widest text-zinc-400">
                   {label}
                 </p>
