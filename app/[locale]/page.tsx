@@ -16,7 +16,7 @@ export default async function Home({
 
   return (
     <div className="min-h-screen bg-zinc-50 font-sans dark:bg-black">
-      <main className="mx-auto max-w-4xl px-6 py-16 sm:px-12 sm:py-26">
+      <main className="mx-auto max-w-4xl px-6 pt-6 pb-16 sm:px-12 sm:pt-12 sm:pb-24">
         {/* Hero */}
         <section className="mb-16 flex flex-col gap-4">
           <span className="w-fit rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-blue-700 dark:bg-blue-950 dark:text-blue-300">
